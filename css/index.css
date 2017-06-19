@@ -1,0 +1,306 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	min-width: 1100px;
+}
+
+.topnav {
+	width: 100%;
+	height: 100px;
+	background: rgba(62, 67, 88, 0.6);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.topcolor {
+	width: 100%;
+	height: 6px;
+	position: absolute;
+	top: 100px;
+	background: url(../img/color.png);
+}
+
+.topmain {
+	width: 1100px;
+	height: 100px;
+	margin: auto;
+	position: relative;
+}
+
+.toprightdiv {
+	width: 202px;
+	height: 22px;
+	background-color: #666666;
+	border-radius: 5px;
+	display: block;
+	padding-left: 15px;
+	position: absolute;
+	right: 0;
+	top: 6px;
+}
+
+.toprightdiv>a {
+	color: rgb(217, 217, 217);
+	font-size: 12px;
+	margin-right: 8px;
+	border-right: 1px solid #fff;
+	padding-right: 8px;
+	text-decoration: none;
+}
+
+.toprightdiv>a:hover {
+	text-decoration: underline;
+}
+
+.topmainul {
+	position: absolute;
+	right: 10px;
+	top: 30px;
+}
+
+.topmainul>li {
+	float: left;
+	list-style: none;
+	width: 101px;
+	height: 70px;
+	border-right: 1px dashed gray;
+	text-align: center;
+	line-height: 10px;
+}
+
+.topmainul>li:nth-of-type(7) {
+	border-right: 0px;
+}
+
+.topmainul>li>a {
+	text-decoration: none;
+	margin-top: 30px;
+	color: #fff;
+	width: 100%;
+	height: 10px;
+	display: inline-block;
+}
+
+.topmainul>li:nth-of-type(1) a {
+	background-color: red;
+	font-size: 18px;
+}
+
+.lunbo {
+	transition: all 1s;
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 640px;
+	background: url(../img/lunbo1.jpg);
+}
+
+.dot {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	bottom: 10px;
+	right: 45%;
+}
+
+.bianse {
+	width: 12px;
+	height: 12px;
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	margin-left: 15px;
+	float: left;
+	margin-top: 10px;
+}
+
+.main {
+	height: 200px;
+	width: 1104px;
+	margin: 20px auto;
+}
+
+.maindiv {
+	float: left;
+	width: 179px;
+	height: 200px;
+	text-align: center;
+	margin-right: 5px;
+	transition: all 1s;
+}
+
+.maindiv>p:nth-of-type(2) {
+	color: rgb(144, 144, 154);
+	font-size: 12px;
+}
+
+.maindiv>p:nth-of-type(1) {
+	transition: all 1s;
+	cursor: pointer;
+}
+
+.footer {
+	width: 1100px;
+	height: 300px;
+	margin: 20px auto;
+}
+
+.footleft {
+	background: url(../img/bg.png);
+	width: 305px;
+	height: 273px;
+	overflow: hidden;
+	float: left;
+}
+
+.footleft>p {
+	margin-top: 10px;
+}
+
+.footleft>p>span:nth-of-type(2) {
+	margin-left: 10px;
+}
+
+.footleft>p>span:nth-of-type(1) {
+	margin-right: 10px;
+}
+
+.mapdiv {
+	width: 270px;
+	height: 220px;
+	background-color: rgb(202, 203, 217);
+	border-radius: 10px;
+	margin: 8px 10px;
+	border: 1px solid gray;
+}
+
+.map {
+	width: 239px;
+	height: 85px;
+	background: url(../img/map.png);
+	margin: 10px auto;
+}
+
+.mapdiv>p {
+	height: 20px;
+}
+
+.mapdiv>p>img {
+	position: relative;
+	top: 3px;
+}
+
+.footmiddle {
+	width: 571px;
+	height: 273px;
+	float: left;
+}
+
+.footmiddletop {
+	width: 571px;
+	height: 50px;
+	border-bottom: 1px solid gray;
+}
+
+.footmiddletop>ul>li {
+	list-style: none;
+	float: left;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	width: 100px;
+}
+
+.footmiddletop>ul>li:hover {
+	background-color: red;
+	color: #fff;
+}
+
+.footmiddletop>img {
+	position: relative;
+	right: -230px;
+	top: 14px;
+}
+
+.footmain {
+	width: 571px;
+	height: 200px;
+	position: absolute;
+}
+
+.footmiddle>div:nth-of-type(3) {
+	display: none;
+}
+
+.footmiddle>div:nth-of-type(4) {
+	display: none;
+}
+
+.footright {
+	height: 273px;
+	width: 202px;
+	margin-left: 10px;
+	float: left;
+	background: url(../img/footright.jpg);
+}
+
+.footright>div {
+	position: relative;
+	right: -0px;
+	top: 220px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.footright>div>p {
+	float: right;
+}
+
+.footright>div:hover {
+	color: red;
+}
+
+.last {
+	width: 100%;
+	height: 80px;
+	background-color: rgb(44, 44, 57);
+	text-align: center;
+	padding-top: 30px;
+}
+
+.last>p {
+	color: gray;
+}
+
+.pointer {
+	display: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 200px;
+	right: 200px;
+	background-color: rgb(44, 44, 57);
+	border-radius: 2px;
+}
+
+.pointer>div {
+	width: 15px;
+	height: 15px;
+	transform: rotate(45deg);
+	margin: auto;
+	-ms-transform: rotate(45deg);
+	/* IE 9 */
+	-moz-transform: rotate(45deg);
+	/* Firefox */
+	-webkit-transform: rotate(45deg);
+	/* Safari 和 Chrome */
+	-o-transform: rotate(45deg);
+	border-left: 5px solid #fff;
+	border-top: 5px solid #fff;
+	margin-top: 15px;
+}

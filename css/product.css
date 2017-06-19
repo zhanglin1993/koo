@@ -1,0 +1,110 @@
+*{padding: 0;margin: 0;font-family: "微软雅黑";}
+body{min-width: 1100px;}
+.topnav{width: 100%;height: 100px;background:rgba(62,67,88,0.6);position: fixed;top: 0;z-index: 1;}
+.topcolor{width: 100%;height: 6px;position: absolute;top: 100px;background: url(../img/color.png);}
+.topmain{width: 1100px;height: 100px;margin: auto;position: relative;}
+.toprightdiv{width: 202px;height: 22px;background-color: #666666;border-radius: 5px;display: block;padding-left: 15px;
+position: absolute;right: 0;top: 6px;}
+.toprightdiv>a{color: rgb(217,217,217);font-size: 12px;margin-right: 8px;border-right: 1px solid #fff;padding-right: 8px;
+text-decoration: none;}
+.toprightdiv>a:hover{text-decoration: underline;}
+.topmainul{position: absolute;right: 10px;top: 30px;}
+.topmainul>li{float: left;list-style: none;width: 101px;height: 70px;border-right: 1px dashed gray;text-align: center;line-height: 10px;}
+.topmainul>li:nth-of-type(7){border-right: 0px;}
+.topmainul>li>a{text-decoration: none;
+margin-top:30px;color: #fff;width: 100%;height: 10px;display: inline-block;}
+.topmainul>li:nth-of-type(3) a{background-color: red;font-size: 18px;}
+.lunbo {
+	transition: all 1s;
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 640px;
+	
+	background: url(../img/lunbo1.jpg);
+	
+}
+.dot {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	bottom: 10px;
+	right: 45%;
+}
+
+.bianse {
+	width: 12px;
+	height: 12px;
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	margin-left: 15px;
+	float: left;
+	margin-top: 10px;
+}
+.main{width: 1100px;height: 800px;
+margin: 20px auto;}
+.maintop{font-size: 14px;}
+.maintop>p>span:nth-of-type(3){margin-left: 70px;}
+.maintop>p>span:nth-of-type(n+3){color: gray;font-size: 12px;}
+.maintop>p>span:nth-of-type(2) {
+	margin-left: 10px;color: gray;font-size: 12px;
+}
+
+.maintop>p>span:nth-of-type(1) {
+	margin-right: 10px;
+	margin-left: 30px;
+}
+.mainleft{float: left;
+	width: 220px;height: 600px;border-right: 1px dashed gray;margin-top:20px;padding-left: 15px;padding-right: 15px;}
+.mainleft>ul>li{list-style: none;width: 100%;text-align: center;height: 60px;line-height: 60px;}
+.mainleft>ul>li:hover{background-color:#f03530;color: #fff;}
+.mainleftbottom{margin-top: 10px;
+	width: 100%;height: 120px;background-color: #E7ECF0;border-radius: 5px;text-align: center;}
+.mainright{float: left;height: 700px;width: 840px;margin-top: 20px;padding-left: 5px;}
+.product{width: 168px;text-align: left;font-size: 14px;float: left;margin-right: 40px;}
+.product>img{width: 168px;height: 168px;}
+.product>p:nth-of-type(1):hover{color: blue;cursor: pointer;}
+.product>p:nth-of-type(2){color: dodgerblue;}
+.bottomnav{width: 100%;height: 30px;float: left;margin-top: 20px;text-align: center;}
+.bottomnav>a{padding-left: 5px;padding-right: 5px;font-size: 14px;
+border:1px solid gainsboro ;vertical-align: middle;text-decoration: none;}
+.last {
+	width: 100%;
+	height: 80px;
+	background-color: rgb(44, 44, 57);
+	text-align: center;
+	padding-top: 30px;
+}
+
+.last>p {
+	color: gray;
+}
+
+.pointer {
+	display: none;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 200px;
+	right: 200px;
+	background-color: rgb(44, 44, 57);
+	border-radius: 2px;
+}
+
+.pointer>div {
+	width: 15px;
+	height: 15px;
+	transform: rotate(45deg);
+	margin: auto;
+	-ms-transform: rotate(45deg);
+	/* IE 9 */
+	-moz-transform: rotate(45deg);
+	/* Firefox */
+	-webkit-transform: rotate(45deg);
+	/* Safari 和 Chrome */
+	-o-transform: rotate(45deg);
+	border-left: 5px solid #fff;
+	border-top: 5px solid #fff;
+	margin-top: 15px;
+}
